@@ -38,7 +38,7 @@ namespace DepotKiwiCmd {
                         return;
                     }
 
-                    command.Execute(new DepotHelper(api, Environment.CurrentDirectory), args.Skip(1).ToArray());
+                    command.Execute(new DepotHelper(api, Environment.CurrentDirectory), parameters);
 
                     return;
                 }
