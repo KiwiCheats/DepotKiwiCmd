@@ -2,7 +2,9 @@
 using System.Linq;
 
 using DepotKiwiCmd.Commands;
-using DepotKiwiCmd.Utils;
+
+using DepotKiwiApiCore;
+using DepotKiwiApiCore.Utils;
 
 namespace DepotKiwiCmd {
     internal static class Program {
@@ -33,7 +35,7 @@ namespace DepotKiwiCmd {
             foreach (var command in _commands) {
                 if (command.Name == args[1]) {
                     if (command.Parameters.Length != parameters.Length) {
-                        Console.WriteLine($"[-] Invalid parameter count!");
+                        Console.WriteLine("[-] Invalid parameter count!");
 
                         return;
                     }

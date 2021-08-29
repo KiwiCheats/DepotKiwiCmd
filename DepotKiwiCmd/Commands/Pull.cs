@@ -1,5 +1,6 @@
 ﻿using System;
-using DepotKiwiCmd.Utils;
+
+using DepotKiwiApiCore.Utils;
 
 namespace DepotKiwiCmd.Commands {
     internal class Pull : ICommand {

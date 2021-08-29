@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepotKiwiCmd", "DepotKiwiCmd\DepotKiwiCmd.csproj", "{F7D31326-BC55-485C-8EB8-2E756058AD02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{8D239ABF-C5E5-40E3-99A2-8604AFF1E53A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepotKiwiApiCore", "lib\DepotKiwiApiCore\DepotKiwiApiCore\DepotKiwiApiCore.csproj", "{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{F7D31326-BC55-485C-8EB8-2E756058AD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7D31326-BC55-485C-8EB8-2E756058AD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7D31326-BC55-485C-8EB8-2E756058AD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEE906EE-12D8-4FEC-B0D8-84ECD0E62A7A} = {8D239ABF-C5E5-40E3-99A2-8604AFF1E53A}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,3 @@
+[submodule "lib/DepotKiwiApiCore"]
+	path = lib/DepotKiwiApiCore
+	url = https://github.com/KiwiCheats/DepotKiwiApiCore.git

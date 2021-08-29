@@ -1,4 +1,4 @@
-﻿using DepotKiwiCmd.Utils;
+﻿using DepotKiwiApiCore.Utils;
 
 namespace DepotKiwiCmd.Commands {
     internal interface ICommand {

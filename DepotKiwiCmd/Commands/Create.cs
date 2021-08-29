@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
-using DepotKiwiCmd.Utils;
+
+using DepotKiwiApiCore.Utils;
 
 namespace DepotKiwiCmd.Commands {
     internal class Create : ICommand {
